@@ -959,8 +959,8 @@
             </form>
           
           </div>
-		
-	document.querySelector("form").addEventListener("submit", handleSubmit);
+		<Script> 
+			document.querySelector("form").addEventListener("submit", handleSubmit);
 
 		const handleSubmit = (e) => {
 		  e.preventDefault()
@@ -973,6 +973,8 @@
 		  }).then(() => console.log('Form successfully submitted')).catch((error) =>
 		    alert(error))
 		}
+		</script>	
+	
 
           <div class="col-md-6 d-flex">
           	<div class="img" style="background-image: url(images/marwa/IMG-20210314-WA0013.jpg);"></div>
